@@ -33,19 +33,17 @@ Write a maya python and create a tool to constrain the bones and meshes that exi
 
 ## **3. Results**
 
-| AI Name | 1 | 2 | 3 | Remarks | Detailed Results |
-| --- | --- | --- | --- | --- | --- |
-| ChatGPTplus | ✓ | ✓ | ≈-✓ | Plain GPT-4 | Almost perfect but the UI text was incorrect |
-| Cursor | ✓ | ✓ | ✓ | Used doc feature to read official maya python | Got it right on the first try |
-| Copilot(BingChat) | ✓ | ✓ | ≈ | Enterprise version × strict | Couldn’t integrate UI with script |
-| Claude | ✓ | ✓ | ✓ | Default |  |
-| Bard | ✓ | ✓ | ×-≈ | Default | For the second question, other tools wrote dummy paths, but Bard
-opened a window to let you choose the save destination! The third
-question’s UI was amazing but it didn’t work due to errors. |
-| phind | ✓ | ≈ | ≈ | Phind model | The second question had an error message but was fixed after one
-try, so it’s a ≈. The third question had many issues, like constraining
-all joints and meshes, which was a terrible specification. |
-| Codellama | ✓ | × | × | Used perplextity labs’ 34b-instruct | The export was close but not quite there… |
+## **3. Results**
+
+| AI Name       | 1 | 2 | 3 | Remarks                                  | Detailed Results |
+|---------------|---|---|---|------------------------------------------|------------------|
+| ChatGPTplus   | ✓ | ✓ | ≈-✓ | Plain GPT-4                             | Almost perfect but the UI text was incorrect |
+| Cursor        | ✓ | ✓ | ✓   | Used doc feature to read official maya python | Got it right on the first try |
+| Copilot(BingChat) | ✓ | ✓ | ≈ | Enterprise version × strict             | Couldn’t integrate UI with script |
+| Claude        | ✓ | ✓ | ✓   | Default                                 |                  |
+| Bard          | ✓ | ✓ | ×-≈ | Default                                 | For the second question, other tools wrote dummy paths, but Bard opened a window to let you choose the save destination! The third question’s UI was amazing but it didn’t work due to errors. |
+| phind         | ✓ | ≈ | ≈   | Phind model                             | The second question had an error message but was fixed after one try, so it’s a ≈. The third question had many issues, like constraining all joints and meshes, which was a terrible specification. |
+| Codellama     | ✓ | × | ×   | Used perplextity labs’ 34b-instruct     | The export was close but not quite there… |
 
 ## **4. Comparison and Analysis**
 

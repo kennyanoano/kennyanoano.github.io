@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "プラモデル"
-description: "プラモデルの塗装履歴"
+title: "modelkits"
+description: "character model kits"
 order: 4
 ---
 
