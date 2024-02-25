@@ -5,9 +5,10 @@ description: "AI楽しいねというだけのページ"
 order: 2
 ---
 
-# AIに関するメモ
+# AIたのしいね
 
-ここにAIに関するメモや情報を記述します。
+楽しいねというだけだよ
+
 ## AI関連記事
 
 {% for article in site.AI_Articles %}

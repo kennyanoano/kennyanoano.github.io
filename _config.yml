@@ -1,4 +1,4 @@
 theme: minima
 collections:
-  AI_Articles:
-    output: true
+  #AI_Articles:
+  #  output: true
