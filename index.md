@@ -1,5 +1,6 @@
 ---
-layout: home
+#layout: home
+layout: page
 title: "about us"
 description: "あのあのについて"
 order: 1
