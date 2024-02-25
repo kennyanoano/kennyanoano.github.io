@@ -1,3 +1,6 @@
-# Adding YAML front matter to each article in the AI_Articles folder with placeholders for title and description
-
-# Article 1
+---
+layout: subpage
+title: "記事のタイトル3"
+description: "記事の短い説明"
+order: 8
+---

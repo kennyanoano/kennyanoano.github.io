@@ -1,3 +1,10 @@
+---
+layout: subpage
+title: "記事1"
+description: "記事の短い説明"
+order: 6
+---
+
 # AI Benchmark Test 2: Which AI can write python for maya?
 
 # **Overview**
