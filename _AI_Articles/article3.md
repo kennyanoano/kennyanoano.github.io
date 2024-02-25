@@ -1,11 +1,10 @@
 ---
 layout: subpage
-title: "Applications of AI: About Programming"
+title: "Thoughts on AI Writing Programs"
 description: "What I thought when AI started to write programs for me"
 order: 8
 ---
 
-# Thoughts on AI Writing Programs
 
 When internet translation first became possible, I was utterly amazed. Now, realizing that AI can write programs, I feel the same thrill as back then. Programmers might be wondering what I'm talking about, so I'd like to share my perspective.
 
