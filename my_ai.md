@@ -1,15 +1,13 @@
 ---
 layout: page
 title: "AI"
-description: "AI楽しいねというだけのページ"
+description: "Happy Days with AI"
 order: 2
 ---
 
-# AIたのしいね
+Happy Days with AI
 
-楽しいねというだけだよ
-
-## AI関連記事
+### AI_articles
 
 {% for article in site.AI_Articles %}
 - [{{ article.title }}]({{ article.url }}) - {{ article.description }}
