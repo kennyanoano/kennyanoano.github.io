@@ -1,4 +1,7 @@
 theme: minima
 collections:
-  #AI_Articles:
-  #  output: true
+  AI_Articles:
+    output: true
+kramdown:
+  input: GFM
+  hard_wrap: true
