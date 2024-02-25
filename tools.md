@@ -1,9 +1,10 @@
 ---
 layout: page
-title: "AIツール"
-description: "AIに関連する小さなツールやプロジェクトの紹介。"
+title: "Tools"
+description: "プログラミングごっこ"
+order: 3
 ---
 
-# AIツール
+# 作ったツール
 
-ここにAIに関連する小さなツールやプロジェクトを紹介します。
+AIに作ってもらったプログラムの紹介

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "3Dプリント"
-description: "3Dプリントに関する技術、ツール、プロジェクトの紹介。"
+title: "3Dprint"
+description: "3Dプリンター遊び"
+order: 5
 ---
 
 # 3Dプリント

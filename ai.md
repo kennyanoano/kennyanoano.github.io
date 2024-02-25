@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "AIに関するメモ"
-description: "AIに関するとりとめのないメモや情報。"
+title: "AIごっこ"
+description: "AI楽しいねというだけのページ"
+order: 2
 ---
 
 # AIに関するメモ

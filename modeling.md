@@ -2,6 +2,7 @@
 layout: page
 title: "プラモデル作成"
 description: "プラモデル作成に関するテクニックや作品の紹介。"
+order: 4
 ---
 
 # プラモデル作成
