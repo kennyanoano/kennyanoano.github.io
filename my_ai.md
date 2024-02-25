@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AIごっこ"
+title: "AI"
 description: "AI楽しいねというだけのページ"
 order: 2
 ---
