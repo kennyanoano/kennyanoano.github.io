@@ -1,7 +1,7 @@
 ---
 layout: subpage
-title: "記事1"
-description: "記事の短い説明"
+title: "AI_mayapython"
+description: "AI Benchmark Test 2: Which AI can write python for maya?"
 order: 6
 ---
 
