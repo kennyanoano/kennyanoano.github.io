@@ -10,10 +10,7 @@ order: 4
 いろいろ塗装して遊んだよというのを掲載するよてい
 テスト中
 
-{% assign photo_folders = site.static_files | where: "path", "photos/" | group_by: "folder" %}
-<ul>
-  {% for folder in photo_folders %}
-    <li><a href="{{ folder.path }}">{{ folder.name }}</a></li>
-  {% endfor %}
-</ul>
+## ギャラリー
+
+- [folder1 Gallery](/photos/folder1/folder1.md)
 
