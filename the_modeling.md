@@ -12,5 +12,8 @@ order: 4
 
 ## ギャラリー
 
-- [folder1 Gallery](/photos/folder1/folder1.md)
+{% for article in site.photos_Articles %}
+- [{{ article.title }}]({{ article.url }}) - {{ article.description }}
+{% endfor %}
+
 
