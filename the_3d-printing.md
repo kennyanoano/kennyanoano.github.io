@@ -14,6 +14,11 @@ order: 5
 ### 3Dprinting_articles
 
 {% for article in site.threeD_Articles %}
+- [{{ article.title }}]({{ article.url }}) - {{ article.description }}
+{% endfor %}
+
+
+{% for article in site.threeD_Articles %}
   <h2>{{ article.title }}</h2>
   <p>{{ article.url }}</p>
   <p>{{ article.description }}</p>
