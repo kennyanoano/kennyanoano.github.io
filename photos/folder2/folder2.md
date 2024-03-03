@@ -6,6 +6,6 @@ description: "Images from folder2"
 
 # folder2 Gallery
 
-{% for image in site.data.photos_folder2 %}
-![{image}]({ '{' } site.baseurl { '}' }/photos/folder2/{image})
-{% endfor %}
+![folder2.md]({ '{' } site.baseurl { '}' }/photos/folder2/folder2.md)
+![index.json]({ '{' } site.baseurl { '}' }/photos/folder2/index.json)
+![noisy_bw_IMG_1435 (1).jpeg]({ '{' } site.baseurl { '}' }/photos/folder2/noisy_bw_IMG_1435 (1).jpeg)
