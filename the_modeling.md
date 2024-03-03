@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(folders => {
             folders.forEach(folder => {
                 const link = document.createElement('a');
-                link.href = `/photo_gallery_template.md?folder=${folder}`;
+                link.href = `/photo_gallery_template?folder=${folder}`;
                 link.textContent = folder;
                 gallery.appendChild(link);
             });
