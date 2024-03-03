@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Title of the Article"
-description: "A brief description of the article"
+title: "MixColorsforUVResin"
+description: "How to mix colors for UV resin used in SLA printers to create original colors"
 ---
 # How to mix colors for UV resin used in SLA printers to create original colors.
 
