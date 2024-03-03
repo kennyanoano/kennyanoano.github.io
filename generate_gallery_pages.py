@@ -1,10 +1,10 @@
 import os
 
-# 'photos'ディレクトリ内のフォルダをリストアップ
+# '_photos_Articles'ディレクトリ内のフォルダをリストアップ
 folders = [name for name in os.listdir("_photos_Articles") if os.path.isdir(os.path.join("_photos_Articles", name))]
 
 for folder in folders:
-    file_path = f"{folder}.md"  # Changed the file_path to generate markdown files in the parent directory
+    file_path = f"_photos_Articles/{folder}.md"  # ファイルパスを_photos_Articlesフォルダ内に変更
     images = os.listdir(f"_photos_Articles/{folder}")
     # 隠しファイルやサブディレクトリを除外
     images = [image for image in images if not image.startswith('.') and not os.path.isdir(os.path.join("_photos_Articles", folder, image))]
