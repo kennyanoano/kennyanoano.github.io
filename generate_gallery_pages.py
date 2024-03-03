@@ -8,7 +8,7 @@ for folder in folders:
     images = os.listdir(f"_photos_Articles/{folder}")
     # 隠しファイルやサブディレクトリを除外
     images = [image for image in images if not image.startswith('.') and not os.path.isdir(os.path.join("_photos_Articles", folder, image))]
-    images_md = "\n".join([f"![{image}]({{ '{{' }} site.baseurl }}{{ '}}' }}/_photos_Articles/{folder}/{image})" for image in images])
+    images_md = "\n".join([f"![{image.split('.')[0]}]({folder}/{image})" for image in images])
     content = f"""---
 layout: subpage
 title: "{folder} Gallery"
