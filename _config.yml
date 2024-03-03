@@ -2,6 +2,8 @@ theme: minima
 collections:
   AI_Articles:
     output: true
+  threeD_Articles:
+    output: true
 kramdown:
   input: GFM
   hard_wrap: true
