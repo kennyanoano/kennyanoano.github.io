@@ -1,14 +1,14 @@
 import os
 
 # 'photos'ディレクトリ内のフォルダをリストアップ
-folders = [name for name in os.listdir("photos") if os.path.isdir(os.path.join("photos", name))]
+folders = [name for name in os.listdir("_photos_Articles") if os.path.isdir(os.path.join("_photos_Articles", name))]
 
 for folder in folders:
-    file_path = f"photos/{folder}/{folder}.md"
-    images = os.listdir(f"photos/{folder}")
+    file_path = f"{folder}.md"  # Changed the file_path to generate markdown files in the parent directory
+    images = os.listdir(f"_photos_Articles/{folder}")
     # 隠しファイルやサブディレクトリを除外
-    images = [image for image in images if not image.startswith('.') and not os.path.isdir(os.path.join("photos", folder, image))]
-    images_md = "\n".join([f"![{image}]({{ '{{' }} site.baseurl {{ '}}' }}/photos/{folder}/{image})" for image in images])
+    images = [image for image in images if not image.startswith('.') and not os.path.isdir(os.path.join("_photos_Articles", folder, image))]
+    images_md = "\n".join([f"![{image}]({{ site.baseurl }}/photos/{folder}/{image})" for image in images])
     content = f"""---
 layout: subpage
 title: "{folder} Gallery"
