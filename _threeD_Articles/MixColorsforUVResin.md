@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: subpage
 title: "MixColorsforUVResin"
 description: "How to mix colors for UV resin used in SLA printers to create original colors"
 ---
