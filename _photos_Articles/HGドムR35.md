@@ -1,11 +1,11 @@
 ---
 layout: subpage
-title: "HGドムR35 Gallery"
-description: "Images from HGドムR35"
+title: "HG繝峨ΒR35 Gallery"
+description: "Images from HG繝峨ΒR35"
 ---
 
-# HGドムR35 Gallery
+# HG繝峨ΒR35 Gallery
 
-![D01](HGドムR35/D01.jpg)
-![D02](HGドムR35/D02.jpg)
-![D03](HGドムR35/D03.jpg)
+![D01](HG繝峨ΒR35/D01.jpg)
+![D02](HG繝峨ΒR35/D02.jpg)
+![D03](HG繝峨ΒR35/D03.jpg)

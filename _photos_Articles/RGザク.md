@@ -1,12 +1,12 @@
 ---
 layout: subpage
-title: "RGザク Gallery"
-description: "Images from RGザク"
+title: "RG繧ｶ繧ｯ Gallery"
+description: "Images from RG繧ｶ繧ｯ"
 ---
 
-# RGザク Gallery
+# RG繧ｶ繧ｯ Gallery
 
-![0614 008](RGザク/0614 008.JPG)
-![0614 009](RGザク/0614 009.JPG)
-![0614 010](RGザク/0614 010.JPG)
-![0614 011](RGザク/0614 011.JPG)
+![0614 008](RG繧ｶ繧ｯ/0614 008.JPG)
+![0614 009](RG繧ｶ繧ｯ/0614 009.JPG)
+![0614 010](RG繧ｶ繧ｯ/0614 010.JPG)
+![0614 011](RG繧ｶ繧ｯ/0614 011.JPG)

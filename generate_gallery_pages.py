@@ -20,5 +20,5 @@ description: "Images from {folder}"
 {images_md}
 """
     
-    with open(file_path, "w") as md_file:
+    with open(file_path, "w", encoding="utf-8") as md_file:
         md_file.write(content)

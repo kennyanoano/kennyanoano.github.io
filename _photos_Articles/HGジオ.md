@@ -1,11 +1,11 @@
 ---
 layout: subpage
-title: "HGジオ Gallery"
-description: "Images from HGジオ"
+title: "HG繧ｸ繧ｪ Gallery"
+description: "Images from HG繧ｸ繧ｪ"
 ---
 
-# HGジオ Gallery
+# HG繧ｸ繧ｪ Gallery
 
-![345](HGジオ/345.JPG)
-![346](HGジオ/346.JPG)
-![347](HGジオ/347.JPG)
+![345](HG繧ｸ繧ｪ/345.JPG)
+![346](HG繧ｸ繧ｪ/346.JPG)
+![347](HG繧ｸ繧ｪ/347.JPG)

@@ -1,9 +1,9 @@
 ---
 layout: subpage
-title: "MGドム Gallery"
-description: "Images from MGドム"
+title: "MG繝峨Β Gallery"
+description: "Images from MG繝峨Β"
 ---
 
-# MGドム Gallery
+# MG繝峨Β Gallery
 
-![285](MGドム/285.JPG)
+![285](MG繝峨Β/285.JPG)

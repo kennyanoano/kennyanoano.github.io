@@ -1,12 +1,12 @@
 ---
 layout: subpage
-title: "HGジム Gallery"
-description: "Images from HGジム"
+title: "HG繧ｸ繝 Gallery"
+description: "Images from HG繧ｸ繝"
 ---
 
-# HGジム Gallery
+# HG繧ｸ繝 Gallery
 
-![278](HGジム/278.JPG)
-![279](HGジム/279.JPG)
-![280](HGジム/280.JPG)
-![281](HGジム/281.JPG)
+![278](HG繧ｸ繝/278.JPG)
+![279](HG繧ｸ繝/279.JPG)
+![280](HG繧ｸ繝/280.JPG)
+![281](HG繧ｸ繝/281.JPG)

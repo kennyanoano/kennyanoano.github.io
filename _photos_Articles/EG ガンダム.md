@@ -1,11 +1,11 @@
 ---
 layout: subpage
-title: "EG ƒKƒ“ƒ_ƒ€ Gallery"
-description: "Images from EG ƒKƒ“ƒ_ƒ€"
+title: "EG ã‚¬ãƒ³ãƒ€ãƒ  Gallery"
+description: "Images from EG ã‚¬ãƒ³ãƒ€ãƒ "
 ---
 
-# EG ƒKƒ“ƒ_ƒ€ Gallery
+# EG ã‚¬ãƒ³ãƒ€ãƒ  Gallery
 
-![01](EG ƒKƒ“ƒ_ƒ€/01.jpg)
-![02](EG ƒKƒ“ƒ_ƒ€/02.jpg)
-![03](EG ƒKƒ“ƒ_ƒ€/03.jpg)
+![01](EG ã‚¬ãƒ³ãƒ€ãƒ /01.jpg)
+![02](EG ã‚¬ãƒ³ãƒ€ãƒ /02.jpg)
+![03](EG ã‚¬ãƒ³ãƒ€ãƒ /03.jpg)

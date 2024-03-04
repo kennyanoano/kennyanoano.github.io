@@ -1,15 +1,15 @@
 ---
 layout: subpage
-title: "HGオリジンガンダム Gallery"
-description: "Images from HGオリジンガンダム"
+title: "HG繧ｪ繝ｪ繧ｸ繝ｳ繧ｬ繝ｳ繝繝 Gallery"
+description: "Images from HG繧ｪ繝ｪ繧ｸ繝ｳ繧ｬ繝ｳ繝繝"
 ---
 
-# HGオリジンガンダム Gallery
+# HG繧ｪ繝ｪ繧ｸ繝ｳ繧ｬ繝ｳ繝繝 Gallery
 
-![IMG_8061](HGオリジンガンダム/IMG_8061.JPG)
-![IMG_8062](HGオリジンガンダム/IMG_8062.JPG)
-![IMG_8063](HGオリジンガンダム/IMG_8063.JPG)
-![IMG_8064](HGオリジンガンダム/IMG_8064.JPG)
-![IMG_8065](HGオリジンガンダム/IMG_8065.JPG)
-![IMG_8067](HGオリジンガンダム/IMG_8067.JPG)
-![IMG_8068](HGオリジンガンダム/IMG_8068.JPG)
+![IMG_8061](HG繧ｪ繝ｪ繧ｸ繝ｳ繧ｬ繝ｳ繝繝/IMG_8061.JPG)
+![IMG_8062](HG繧ｪ繝ｪ繧ｸ繝ｳ繧ｬ繝ｳ繝繝/IMG_8062.JPG)
+![IMG_8063](HG繧ｪ繝ｪ繧ｸ繝ｳ繧ｬ繝ｳ繝繝/IMG_8063.JPG)
+![IMG_8064](HG繧ｪ繝ｪ繧ｸ繝ｳ繧ｬ繝ｳ繝繝/IMG_8064.JPG)
+![IMG_8065](HG繧ｪ繝ｪ繧ｸ繝ｳ繧ｬ繝ｳ繝繝/IMG_8065.JPG)
+![IMG_8067](HG繧ｪ繝ｪ繧ｸ繝ｳ繧ｬ繝ｳ繝繝/IMG_8067.JPG)
+![IMG_8068](HG繧ｪ繝ｪ繧ｸ繝ｳ繧ｬ繝ｳ繝繝/IMG_8068.JPG)

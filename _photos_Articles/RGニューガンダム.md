@@ -1,12 +1,12 @@
 ---
 layout: subpage
-title: "RGニューガンダム Gallery"
-description: "Images from RGニューガンダム"
+title: "RG繝九Η繝ｼ繧ｬ繝ｳ繝繝 Gallery"
+description: "Images from RG繝九Η繝ｼ繧ｬ繝ｳ繝繝"
 ---
 
-# RGニューガンダム Gallery
+# RG繝九Η繝ｼ繧ｬ繝ｳ繝繝 Gallery
 
-![G01+](RGニューガンダム/G01+.jpg)
-![G02+](RGニューガンダム/G02+.jpg)
-![G03+](RGニューガンダム/G03+.jpg)
-![GS01+](RGニューガンダム/GS01+.jpg)
+![G01+](RG繝九Η繝ｼ繧ｬ繝ｳ繝繝/G01+.jpg)
+![G02+](RG繝九Η繝ｼ繧ｬ繝ｳ繝繝/G02+.jpg)
+![G03+](RG繝九Η繝ｼ繧ｬ繝ｳ繝繝/G03+.jpg)
+![GS01+](RG繝九Η繝ｼ繧ｬ繝ｳ繝繝/GS01+.jpg)
