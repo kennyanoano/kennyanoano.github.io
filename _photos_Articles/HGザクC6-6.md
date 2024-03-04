@@ -1,0 +1,18 @@
+---
+layout: subpage
+title: "HGザクC6-6 Gallery"
+description: "Images from HGザクC6-6"
+---
+
+# HGザクC6-6 Gallery
+
+![IMG_0667](HGザクC6-6/IMG_0667.JPG)
+![IMG_0668](HGザクC6-6/IMG_0668.JPG)
+![IMG_0669](HGザクC6-6/IMG_0669.JPG)
+![IMG_0670](HGザクC6-6/IMG_0670.JPG)
+![IMG_0671](HGザクC6-6/IMG_0671.JPG)
+![IMG_0672](HGザクC6-6/IMG_0672.JPG)
+![IMG_0673](HGザクC6-6/IMG_0673.JPG)
+![IMG_0674](HGザクC6-6/IMG_0674.JPG)
+![IMG_0675](HGザクC6-6/IMG_0675.JPG)
+![IMG_0886](HGザクC6-6/IMG_0886.JPG)
