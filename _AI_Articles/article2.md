@@ -9,10 +9,12 @@ order: 7
 
 # **Overview**
 
-This article introduces an experiment to benchmark the deception
+~~This article introduces an experiment to benchmark the deception
 levels of various AIs such as ChatGPT, Bard, Cursor, Claude, and phind.
 The purpose of the test is to observe how each AI responds when asked to
-write a command in UE Python that does not exist.
+write a command in UE Python that does not exist.~~
+Cursor x claude3opus solved this problem. It was an error to say there was no solution.
+
 
 ## **Test Rules**
 
@@ -44,14 +46,8 @@ With no selections made, the name of the folder currently open in the asset brow
 
 **Summary of Results**
 
-- Summarizing by AI model, the openAI/google-based models were the only ones that were able to answer properly, codellama had a good understanding of the grammar but made mistakes, and the other models did not even go as far as to be considered.
-- It was interesting that what ChatGPT could not answer, GPTs and
-Copilot could.
-- perplexity and Bard usually tell lies, so it was surprising that
-they provided the correct answer. This time, all models were asked in a
-polite and clear manner, which may have led to relatively uniform
-results. I would like to retest with the more casual approach that is
-usually taken.
+As I mentioned at the beginning, after doing this test, I asked Cursor about this issue through the claude3 opus model and they gave me a python that works correctly. Therefore, the other AI comparisons do not make much sense!
+
 
 ## **Conclusion**
 

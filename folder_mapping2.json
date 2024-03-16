@@ -1,0 +1,534 @@
+{
+    "30msリシェッタ": {
+      "gallery_id": "gallery_1",
+      "english_name": "30ms Risyetta",
+      "product_type": "30ms",
+      "seller": "バンダイ"
+    },
+    "EGガンダム": {
+      "gallery_id": "gallery_2",
+      "english_name": "EG Gundam",
+      "product_type": "EG",
+      "seller": "バンダイ"
+    },
+    "HGオリジンガンキャノン": {
+      "gallery_id": "gallery_5",
+      "english_name": "HG Origin Gun Cannon",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGオリジンガンダム": {
+      "gallery_id": "gallery_6",
+      "english_name": "HG Origin Gundam",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGオリジンドム＋ザク": {
+      "gallery_id": "gallery_7",
+      "english_name": "HG Origin Dom + Zaku",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGガンダムFSD": {
+      "gallery_id": "gallery_8",
+      "english_name": "HG Gundam FSD",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGグフR35": {
+      "gallery_id": "gallery_9",
+      "english_name": "HG Gouf R35",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGグリモアレッドベレー": {
+      "gallery_id": "gallery_10",
+      "english_name": "HG Grimoire Red Beret",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGザクC6": {
+      "gallery_id": "gallery_11",
+      "english_name": "HG Zaku C6",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGザクC6-6": {
+      "gallery_id": "gallery_12",
+      "english_name": "HG Zaku C6-6",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGザクハーフキャノン": {
+      "gallery_id": "gallery_13",
+      "english_name": "HG Zaku Half Cannon",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGザク１サンダーボルト": {
+      "gallery_id": "gallery_14",
+      "english_name": "HG Zaku I Thunderbolt",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGジェスタキャノン": {
+      "gallery_id": "gallery_15",
+      "english_name": "HG Jesta Cannon",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGジオ": {
+      "gallery_id": "gallery_16",
+      "english_name": "HG Zeo",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGジム": {
+      "gallery_id": "gallery_17",
+      "english_name": "HG GM",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGジムコマンド": {
+      "gallery_id": "gallery_18",
+      "english_name": "HG GM Command",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGジム寒冷地仕様": {
+      "gallery_id": "gallery_19",
+      "english_name": "HG GM Cold Districts Type",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGズゴック": {
+      "gallery_id": "gallery_20",
+      "english_name": "HG Z'Gok",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGズゴック02": {
+      "gallery_id": "gallery_21",
+      "english_name": "HG Z'Gok 02",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGダンバイン": {
+      "gallery_id": "gallery_22",
+      "english_name": "HG Dunbine",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGドムR35": {
+      "gallery_id": "gallery_23",
+      "english_name": "HG Dom R35",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGパワードジムカーディガン": {
+      "gallery_id": "gallery_24",
+      "english_name": "HG Powered GM Cardigan",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGヘイズル": {
+      "gallery_id": "gallery_25",
+      "english_name": "HG Hazel",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGヴァッフ": {
+      "gallery_id": "gallery_26",
+      "english_name": "HG Vaff",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "HGヴォドムポッド": {
+      "gallery_id": "gallery_27",
+      "english_name": "HG Wodom Pod",
+      "product_type": "HG",
+      "seller": "バンダイ"
+    },
+    "MG ズゴック": {
+      "gallery_id": "gallery_28",
+      "english_name": "MG Z'Gok",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGアッガイ": {
+      "gallery_id": "gallery_29",
+      "english_name": "MG Acguy",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGアッガイ02": {
+      "gallery_id": "gallery_30",
+      "english_name": "MG Acguy 02",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGガンキャノン": {
+      "gallery_id": "gallery_31",
+      "english_name": "MG Gun Cannon",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGガンダム": {
+      "gallery_id": "gallery_32",
+      "english_name": "MG Gundam",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGギラドーガ": {
+      "gallery_id": "gallery_33",
+      "english_name": "MG Geara Doga",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGグフカスタム": {
+      "gallery_id": "gallery_34",
+      "english_name": "MG Gouf Custom",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGザク": {
+      "gallery_id": "gallery_35",
+      "english_name": "MG Zaku",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGザク1": {
+      "gallery_id": "gallery_36",
+      "english_name": "MG Zaku I",
+      "product_type": "MG",
+      "seller": "バンダイ"      
+    },
+    "MGジェガン": {
+      "gallery_id": "gallery_37",
+      "english_name": "MG Jegan",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGジェスタ": {
+      "gallery_id": "gallery_38",
+      "english_name": "MG Jesta",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGズゴック": {
+      "gallery_id": "gallery_39",
+      "english_name": "MG Z'Gok",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGターンエーガンダム": {
+      "gallery_id": "gallery_40",
+      "english_name": "MG Turn A Gundam",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGターンＸ": {
+      "gallery_id": "gallery_41",
+      "english_name": "MG Turn X",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MGドム": {
+      "gallery_id": "gallery_42",
+      "english_name": "MG Dom",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "MG陸戦型ジム": {
+      "gallery_id": "gallery_43",
+      "english_name": "MG Ground Type GM",
+      "product_type": "MG",
+      "seller": "バンダイ"
+    },
+    "REガンキャノンディテクター": {
+      "gallery_id": "gallery_44",
+      "english_name": "RE Gun Cannon Detector",
+      "product_type": "RE",
+      "seller": "バンダイ"
+    },
+    "RGZガンダム": {
+      "gallery_id": "gallery_45",
+      "english_name": "RGZ Gundam",
+      "product_type": "RG",
+      "seller": "バンダイ"
+    },
+    "RGエヴァ初号機": {
+      "gallery_id": "gallery_46",
+      "english_name": "RG Eva Unit-01",
+      "product_type": "RG",
+      "seller": "バンダイ"
+    },
+    "RGガンダム": {
+      "gallery_id": "gallery_47",
+      "english_name": "RG Gundam",
+      "product_type": "RG",
+      "seller": "バンダイ"
+    },
+    "RGサザビー": {
+      "gallery_id": "gallery_48",
+      "english_name": "RG Sazabi",
+      "product_type": "RG",
+      "seller": "バンダイ"
+    },
+    "RGザク": {
+      "gallery_id": "gallery_49",
+      "english_name": "RG Zaku",
+      "product_type": "RG",
+      "seller": "バンダイ"
+    },
+    "RGシナンジュ": {
+      "gallery_id": "gallery_50",
+      "english_name": "RG Sinanju",
+      "product_type": "RG",
+      "seller": "バンダイ"
+    },
+    "RGズゴック": {
+      "gallery_id": "gallery_51",
+      "english_name": "RG Z'Gok",
+      "product_type": "RG",
+      "seller": "バンダイ"
+    },
+    "RGニューガンダム": {
+      "gallery_id": "gallery_52",
+      "english_name": "RG Nu Gundam",
+      "product_type": "RG",
+      "seller": "バンダイ"
+    },
+    "RGマーク2": {
+      "gallery_id": "gallery_53",
+      "english_name": "RG Mark II",
+      "product_type": "RG",
+      "seller": "バンダイ"
+    },
+    "RGユニコーンガンダム": {
+      "gallery_id": "gallery_54",
+      "english_name": "RG Unicorn Gundam",
+      "product_type": "RG",
+      "seller": "バンダイ"
+    },
+    "SOLストライクラプター": {
+      "gallery_id": "gallery_55",
+      "english_name": "SOL Strike Raptor",
+      "product_type": "Megami Device",
+      "seller": "コトブキヤ"
+    },
+    "アクアシューターズ": {
+      "gallery_id": "gallery_56",
+      "english_name": "Aqua Shooters",
+      "product_type": "アクアシューターズ",
+      "seller": "バンダイ"
+    },
+    "アクアシューターズ2": {
+      "gallery_id": "gallery_57",
+      "english_name": "Aqua Shooters 2",
+      "product_type": "アクアシューターズ",
+      "seller": "バンダイ"
+    },
+    "アスラタマモノマエ": {
+      "gallery_id": "gallery_58",
+      "english_name": "Asra Tamamonomae",
+      "product_type": "Megami Device",
+      "seller": "コトブキヤ"
+    },
+    "アラレちゃん": {
+      "gallery_id": "gallery_59",
+      "english_name": "Arale-chan",
+      "product_type": "Figure",
+      "seller": "バンダイ"
+    },
+    "ウォーカーギャリア": {
+      "gallery_id": "gallery_60",
+      "english_name": "Walker Gallia",
+      "product_type": "Model Kit",
+      "seller": "バンダイ"
+    },
+    "エクスキューショナー": {
+      "gallery_id": "gallery_61",
+      "english_name": "Executioner",
+      "product_type": "Megami Device",
+      "seller": "コトブキヤ"
+    },
+    "エクソシスト": {
+      "gallery_id": "gallery_62",
+      "english_name": "Exorcist",
+      "product_type": "Megami Device",
+      "seller": "コトブキヤ"
+    },
+    "カーボニア・アダマス": {
+      "gallery_id": "gallery_63",
+      "english_name": "Carbonia Adamas",
+      "product_type": "チトセリウム",
+      "seller": "グッドスマイルカンパニー"
+    },
+    "ガシャプラザク01": {
+      "gallery_id": "gallery_64",
+      "english_name": "Gashapla Zaku 01",
+      "product_type": "Gashapon",
+      "seller": "バンダイ"
+    },
+    "ガシャプラザク02": {
+      "gallery_id": "gallery_65",
+      "english_name": "Gashapla Zaku 02",
+      "product_type": "Gashapon",
+      "seller": "バンダイ"
+    },
+    "ガシャプラダンバイン01": {
+      "gallery_id": "gallery_66",
+      "english_name": "Gashapla Dunbine 01",
+      "product_type": "Gashapon",
+      "seller": "バンダイ"
+    },
+    "ガンシップ": {
+      "gallery_id": "gallery_67",
+      "english_name": "Gunship",
+      "product_type": "Model Kit",
+      "seller": "バンダイ"
+    },
+    "ガンシップ02": {
+      "gallery_id": "gallery_68",
+      "english_name": "Gunship 02",
+      "product_type": "Model Kit",
+      "seller": "バンダイ"
+    },
+    "キティーガンダム": {
+      "gallery_id": "gallery_69",
+      "english_name": "Kitty Gundam",
+      "product_type": "Model Kit",
+      "seller": "バンダイ"
+    },
+    "グライフェン": {
+      "gallery_id": "gallery_70",
+      "english_name": "Glaifen",
+      "product_type": "フレームアームズガール",
+      "seller": "コトブキヤ"
+    },
+    "ザク旧キット": {
+      "gallery_id": "gallery_71",
+      "english_name": "Zaku Old Kit",
+      "product_type": "Model Kit",
+      "seller": "バンダイ"
+    },
+    "シタラ": {
+      "gallery_id": "gallery_72",
+      "english_name": "Sitara",
+      "product_type": "メガミデバイスアリスギアアイギス",
+      "seller": "コトブキヤ"
+    },
+    "ドゥルガーI": {
+      "gallery_id": "gallery_73",
+      "english_name": "Durga I",
+      "product_type": "フレームアームズガール",
+      "seller": "コトブキヤ"
+    },
+    "ドラゴンドレス": {
+      "gallery_id": "gallery_74",
+      "english_name": "Dragon Dress",
+      "product_type": "ダークアドヴェント",
+      "seller": "アルファマックス"
+    },
+    "バーゼラルド": {
+      "gallery_id": "gallery_75",
+      "english_name": "Bazerard",
+      "product_type": "フレームアームズガール",
+      "seller": "コトブキヤ"
+    },
+    "ビキニフレズ": {
+      "gallery_id": "gallery_76",
+      "english_name": "Bikini Warriors",
+      "product_type": "フレームアームズガール",
+      "seller": "コトブキヤ"
+    },
+    "フレズヴェルクサマーver": {
+      "gallery_id": "gallery_77",
+      "english_name": "Frezwerk Summer Version",
+      "product_type": "フレームアームズガール",
+      "seller": "コトブキヤ"
+    },
+    "ブルマのバイク": {
+      "gallery_id": "gallery_78",
+      "english_name": "Bulma's Motorcycle",
+      "product_type": "Model Kit",
+      "seller": "バンダイ"
+    },
+    "ホイホイさん01": {
+      "gallery_id": "gallery_79",
+      "english_name": "HoiHoi-san 01",
+      "product_type": "Figure",
+      "seller": "コトブキヤ"
+    },
+    "ホイホイさん02": {
+      "gallery_id": "gallery_80",
+      "english_name": "HoiHoi-san 02",
+      "product_type": "Figure",
+      "seller": "コトブキヤ"
+    },
+    "マガツキ": {
+      "gallery_id": "gallery_81",
+      "english_name": "Magatsuki",
+      "product_type": "フレームアームズガール",
+      "seller": "コトブキヤ"
+    },
+    "モビルドールメイ": {
+      "gallery_id": "gallery_82",
+      "english_name": "Mobile Doll May",
+      "product_type": "Model Kit",
+      "seller": "バンダイ"
+    },
+    "モビルドールメイ02": {
+      "gallery_id": "gallery_83",
+      "english_name": "Mobile Doll May 02",
+      "product_type": "Model Kit",
+      "seller": "バンダイ"
+    },
+    "小鳥遊暦": {
+      "gallery_id": "gallery_84",
+      "english_name": "Takanashi Rikka",
+      "product_type": "創彩少女庭園",
+      "seller": "コトブキヤ"
+    },
+    "朱羅弓兵": {
+      "gallery_id": "gallery_85",
+      "english_name": "Shura Archer",
+      "product_type": "Megami Device",
+      "seller": "コトブキヤ"
+    },
+    "炭治郎": {
+      "gallery_id": "gallery_86",
+      "english_name": "Tanjiro",
+      "product_type": "Figure",
+      "seller": "バンダイ"
+    },
+    "相河愛花": {
+      "gallery_id": "gallery_87",
+      "english_name": "Aiko Aikawa",
+      "product_type": "メガミデバイスアリスギアアイギス",
+      "seller": "コトブキヤ"
+    },
+    "結城まどか": {
+      "gallery_id": "gallery_88",
+      "english_name": "Madoka Yuuki",
+      "product_type": "創彩少女庭園",
+      "seller": "コトブキヤ"
+    },
+    "轟雷改": {
+      "gallery_id": "gallery_89",
+      "english_name": "Todoroki Raikai",
+      "product_type": "フレームアームズガール",
+      "seller": "コトブキヤ"
+    },
+    "金潟すぐみ": {
+      "gallery_id": "gallery_90",
+      "english_name": "Kanagata Sugumi",
+      "product_type": "メガミデバイスアリスギアアイギス",
+      "seller": "コトブキヤ"
+    }
+}
+
+        
+
+  
