@@ -12,3 +12,7 @@ Happy Days with AI
 {% for article in site.AI_Articles %}
 - [{{ article.title }}]({{ article.url }}) - {{ article.description }}
 {% endfor %}
+
+
+- AI Songs
+https://www.udio.com/playlists/d9y1AnT1gaWciwiPQBti8g
