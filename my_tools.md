@@ -13,5 +13,4 @@ AIに作ってもらったプログラムの紹介!自力では何もできな�
 
 - UEPython
     UnrealEnginePythonのサンプル    
-    [https://github.com/kennyanoano/UEPythonSamples](https://github.com/kennyanoano/UEPythonSamples)
-
+    [UEPythonSamplesの詳細はこちら](UEPythonSamples.md)

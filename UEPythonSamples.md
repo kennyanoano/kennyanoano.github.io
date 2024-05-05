@@ -60,7 +60,7 @@ new_folder = unreal.MovieSceneSequenceExtensions.add_root_folder_to_sequence(lev
 for binding in bindings:
     tracks = binding.get_tracks()
 
-# レベル上の各バインディングからトラックを取得しMovieSceneSkeletalAnimationTrackのパラメータを取得(要はアニメーションのトラックのパラメータ)
+# アニメーションのトラックのパラメータ取得
 for binding in bindings:
     tracks = binding.get_tracks()
     for track in tracks:
@@ -109,7 +109,7 @@ unreal.LevelSequenceEditorBlueprintLibrary.set_current_time(integer)
 
 #------------------------------------------------------------------------------------------
 # Get Bone Name ★
-# スケルタルメッシュからスケルトンを取得し、スケルトンモディファイアからget_all_bone_namesで取得
+## スケルタルメッシュからスケルトンを取得し、スケルトンモディファイアからget_all_bone_namesで取得
 skeleton = asset.skeleton
 if skeleton is not None:
     skeleton_modifier = unreal.SkeletonModifier()
