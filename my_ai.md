@@ -15,4 +15,5 @@ Happy Days with AI
 
 
 - AI Songs
-https://www.udio.com/playlists/d9y1AnT1gaWciwiPQBti8g
+  - [80s HardRock Lists](https://www.udio.com/playlists/d9y1AnT1gaWciwiPQBti8g)
+
