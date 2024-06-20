@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ヴァンパイアサバイバー風ゲーム</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        canvas {
+            border: 1px solid black;
+            cursor: none;
+        }
+        #score, #health, #weapon {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="score">スコア: 0</div>
+    <div id="health">体力: 100</div>
+    <div id="weapon">武器: 通常弾</div>
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        const scoreElement = document.getElementById('score');
+        const healthElement = document.getElementById('health');
+        const weaponElement = document.getElementById('weapon');
+
+        let score = 0;
+        let mouseX = 0;
+        let mouseY = 0;
+
+        class Player {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.speed = 5;
+                this.size = 20;
+                this.attackCooldown = 0;
+                this.health = 100;
+                this.invincibilityFrames = 0;
+                this.weapon = 'normal';
+            }
+
+            draw() {
+                ctx.fillStyle = this.invincibilityFrames > 0 ? 'rgba(0, 0, 255, 0.5)' : 'blue';
+                ctx.fillRect(this.x, this.y, this.size, this.size);
+            }
+
+            move(dx, dy) {
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+                this.x = Math.max(0, Math.min(canvas.width - this.size, this.x));
+                this.y = Math.max(0, Math.min(canvas.height - this.size, this.y));
+            }
+
+            attack(targetX, targetY) {
+                if (this.attackCooldown <= 0) {
+                    const dx = targetX - (this.x + this.size / 2);
+                    const dy = targetY - (this.y + this.size / 2);
+                    const angle = Math.atan2(dy, dx);
+                    
+                    switch(this.weapon) {
+                        case 'normal':
+                            bullets.push(new Bullet(this.x + this.size / 2, this.y + this.size / 2, angle, 'yellow', 5));
+                            this.attackCooldown = 20;
+                            break;
+                        case 'shotgun':
+                            for (let i = -1; i <= 1; i++) {
+                                bullets.push(new Bullet(this.x + this.size / 2, this.y + this.size / 2, angle + i * 0.2, 'orange', 3));
+                            }
+                            this.attackCooldown = 40;
+                            break;
+                        case 'laser':
+                            bullets.push(new Bullet(this.x + this.size / 2, this.y + this.size / 2, angle, 'cyan', 3, 20));
+                            this.attackCooldown = 5;
+                            break;
+                    }
+                }
+            }
+
+            takeDamage(amount) {
+                if (this.invincibilityFrames <= 0) {
+                    this.health -= amount;
+                    this.invincibilityFrames = 60;
+                    healthElement.textContent = `体力: ${this.health}`;
+                    if (this.health <= 0) {
+                        alert('ゲームオーバー！');
+                        location.reload();
+                    }
+                }
+            }
+
+            update() {
+                if (this.attackCooldown > 0) {
+                    this.attackCooldown--;
+                }
+                if (this.invincibilityFrames > 0) {
+                    this.invincibilityFrames--;
+                }
+            }
+
+            changeWeapon() {
+                const weapons = ['normal', 'shotgun', 'laser'];
+                this.weapon = weapons[(weapons.indexOf(this.weapon) + 1) % weapons.length];
+                weaponElement.textContent = `武器: ${this.weapon}`;
+            }
+        }
+
+        class Enemy {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.speed = 2;
+                this.size = 15;
+            }
+
+            draw() {
+                ctx.fillStyle = 'red';
+                ctx.fillRect(this.x, this.y, this.size, this.size);
+            }
+
+            move(playerX, playerY) {
+                const dx = playerX - this.x;
+                const dy = playerY - this.y;
+                const distance = Math.sqrt(dx * dx + dy * dy);
+                this.x += (dx / distance) * this.speed;
+                this.y += (dy / distance) * this.speed;
+            }
+        }
+
+        class Bullet {
+            constructor(x, y, angle, color, size, speed = 10) {
+                this.x = x;
+                this.y = y;
+                this.speed = speed;
+                this.size = size;
+                this.angle = angle;
+                this.color = color;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            move() {
+                this.x += Math.cos(this.angle) * this.speed;
+                this.y += Math.sin(this.angle) * this.speed;
+            }
+        }
+
+        const player = new Player(400, 300);
+        const enemies = [];
+        const bullets = [];
+
+        function spawnEnemy() {
+            if (enemies.length < 10) {
+                enemies.push(new Enemy());
+            }
+        }
+
+        setInterval(spawnEnemy, 2000);
+
+        let keys = {};
+
+        document.addEventListener('keydown', (e) => {
+            keys[e.key] = true;
+            if (e.key === ' ') {
+                player.changeWeapon();
+            }
+        });
+
+        document.addEventListener('keyup', (e) => {
+            keys[e.key] = false;
+        });
+
+        canvas.addEventListener('mousemove', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            mouseX = e.clientX - rect.left;
+            mouseY = e.clientY - rect.top;
+        });
+
+        canvas.addEventListener('click', () => {
+            player.attack(mouseX, mouseY);
+        });
+
+        function checkCollisions() {
+            for (let i = bullets.length - 1; i >= 0; i--) {
+                for (let j = enemies.length - 1; j >= 0; j--) {
+                    if (
+                        bullets[i].x < enemies[j].x + enemies[j].size &&
+                        bullets[i].x + bullets[i].size > enemies[j].x &&
+                        bullets[i].y < enemies[j].y + enemies[j].size &&
+                        bullets[i].y + bullets[i].size > enemies[j].y
+                    ) {
+                        bullets.splice(i, 1);
+                        enemies.splice(j, 1);
+                        score += 10;
+                        scoreElement.textContent = `スコア: ${score}`;
+                        break;
+                    }
+                }
+            }
+
+            for (let i = enemies.length - 1; i >= 0; i--) {
+                if (
+                    player.x < enemies[i].x + enemies[i].size &&
+                    player.x + player.size > enemies[i].x &&
+                    player.y < enemies[i].y + enemies[i].size &&
+                    player.y + player.size > enemies[i].y
+                ) {
+                    player.takeDamage(10);
+                }
+            }
+        }
+
+        function drawCursor() {
+            ctx.strokeStyle = 'red';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(mouseX - 10, mouseY);
+            ctx.lineTo(mouseX + 10, mouseY);
+            ctx.moveTo(mouseX, mouseY - 10);
+            ctx.lineTo(mouseX, mouseY + 10);
+            ctx.stroke();
+        }
+
+        function gameLoop() {
+            ctx.fillStyle = 'gray';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            if (keys['ArrowUp']) player.move(0, -1);
+            if (keys['ArrowDown']) player.move(0, 1);
+            if (keys['ArrowLeft']) player.move(-1, 0);
+            if (keys['ArrowRight']) player.move(1, 0);
+
+            player.update();
+            player.draw();
+
+            enemies.forEach(enemy => {
+                enemy.move(player.x, player.y);
+                enemy.draw();
+            });
+
+            bullets.forEach((bullet, index) => {
+                bullet.move();
+                bullet.draw();
+                if (bullet.x < 0 || bullet.x > canvas.width || bullet.y < 0 || bullet.y > canvas.height) {
+                    bullets.splice(index, 1);
+                }
+            });
+
+            checkCollisions();
+            drawCursor();
+
+            requestAnimationFrame(gameLoop);
+        }
+
+        gameLoop();
+    </script>
+</body>
+</html>
