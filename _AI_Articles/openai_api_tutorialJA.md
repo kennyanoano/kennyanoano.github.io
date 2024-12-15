@@ -26,7 +26,7 @@ GoogleのAPIもOpenAI(chatGPT)のAPIも同じようなかんじですが、Googl
    OpenAI:OpenAI_API_KEYという名前で取得したAPIキーを保存
 
 2. **カーソル（Cursor）をインストール**  
-   - わかる人はなんでもOK、初心者で何もわからない人はCursorをインストールしてAIに教えてもらいながらやる。
+   - わかる人はなんでもOK、初心者で何もわからない人はCursorをインストールして教えてもらいながらやる。
 
 3. **Pythonをインストール**  
    - Pythonをパソコンにインストール
